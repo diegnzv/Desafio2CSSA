@@ -70,6 +70,7 @@ ul{
     gap:5px;
     padding:5px;
     grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
+    justify-items: center;
     
 }
 
