@@ -7,6 +7,7 @@
 body{
     font-family: Roboto;
 }
+
 header{
     display:flex;
     justify-content: center;
@@ -27,7 +28,6 @@ menu{
     border-right: 0.5px solid #fff
 }
 
-
 footer{
     display:flex;
     grid-area: footer;
@@ -35,7 +35,6 @@ footer{
     text-align: center;
     align-items: end;
     justify-content: center;
-
 }
 
 ul{
@@ -43,12 +42,11 @@ ul{
     flex-direction: column;
     align-items: start;
     list-style:none;
-    
 }
+
 .hero-content{
     grid-area: hero-content;
     background-color: #dcdcdc;
-
 }
 
 .grid-container{
@@ -62,8 +60,6 @@ ul{
     "menu hero-content hero-content hero-content hero-content"
     "footer footer footer footer footer";
     grid-template-columns:1fr 4fr;
-
-
 }
 
 .grilla-productos{
@@ -73,22 +69,21 @@ ul{
     padding:5px;
     grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
     justify-items: center;
-    
 }
-
 
 .btn-comprar{
     background-color:#12203E;
     color:white;
     width:100%;
-    
 }
+
 .card-producto{
     display:flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
+
 .card-img-top {
     width: 100%; 
     height: 200px; 
